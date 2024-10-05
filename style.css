@@ -110,6 +110,7 @@ main{
 
 
 section{
+    pointer-events: none;
     display: grid;
     grid-template-columns: 1fr; 
     justify-items: center;
@@ -135,9 +136,11 @@ section:hover{
     background-color: rgba(233, 192, 130, 0.425);
     transition: 0.5s;
     align-items: center;
+    pointer-events: none;
 }
 
 section > button{
+    pointer-events: fill;
     display: none;
     opacity: 0;
     
@@ -155,6 +158,7 @@ section > button{
 }
 
 section:hover > button{
+    background-color: #ac4705;
     transition: 0.8s;
     opacity: 1;
     
@@ -162,7 +166,7 @@ section:hover > button{
 }
 
 section > img{
-
+    pointer-events: none;
     width: 100%;
     height: 120px;
     margin: 0px;
@@ -188,6 +192,7 @@ section > p{
     grid-template-columns: repeat(5, 1fr);
     margin: auto;
     justify-items: center;
+    pointer-events: none;
 }
 
 
@@ -331,7 +336,7 @@ section > p{
 
     #gridcard{
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         margin: auto;
         justify-items: center;
         margin: 0px;
