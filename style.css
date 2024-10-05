@@ -294,12 +294,17 @@ section > p{
 
 @media (max-width: 568px) {
 
-    main{
+    header{
+        width: 100%;
+    }
+
+    body{
         width: 100%;
     }
    
     nav{
         gap: 4%;
+        width: 235px;
     }
 
     section > img{
@@ -308,8 +313,8 @@ section > p{
     }
 
     section{
-        min-height: 160px;
-        min-width: 109px;
+        min-height: 133px;
+        min-width: 88px;
     }
 
     section p{
@@ -326,7 +331,7 @@ section > p{
 
     #gridcard{
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         margin: auto;
         justify-items: center;
         margin: 0px;
