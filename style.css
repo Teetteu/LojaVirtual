@@ -19,7 +19,7 @@ header{
     border-bottom: solid #dadada9f;
     backdrop-filter: blur(10px);
 
-    padding: 10px;
+    padding: 0px;
     z-index: 1000;
     position: sticky;
     top: 0;
