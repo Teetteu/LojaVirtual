@@ -21,7 +21,7 @@ const lista = [
 
     {
         nome: 'Pão de forma',
-        valor: 'R$ 7,00 uni.',
+        valor: 'R$7,00 uni.',
         img: 'https://amopaocaseiro.com.br/wp-content/uploads/2019/12/pao-de-forma-caseiro_02.jpg'
     },
 
@@ -33,19 +33,19 @@ const lista = [
 
     {
         nome: 'Pão de batata',
-        valor: 'R$ 9,00 kg',
-        img: 'https://img.cybercook.com.br/imagens/receitas/927/pao-de-batata-com-carne-seca.jpg'
+        valor: 'R$9,00 kg',
+        img: 'https://amopaocaseiro.com.br/wp-content/uploads/2020/04/pao-de-batata_IMG_4534-840x560.jpg'
     },
 
     {
         nome: 'Empada',
-        valor: 'R$ 5,00 uni.',
+        valor: 'R$5,00 uni.',
         img: 'https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2023/10/24/796246837-empada-de-camarao.jpg'
     },
 
     { 
         nome: 'Coxinha',
-        valor: 'R$ 5,00 uni.',
+        valor: 'R$5,00 uni.',
         img: 'https://static.itdg.com.br/images/1200-630/12d6edf758753748df23c3b69a2258fc/279010-original.jpg'
     },
 
@@ -94,7 +94,7 @@ const lista = [
     {
         nome: 'sucos naturais 300ml',
         valor: 'R$3,00',
-        img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS013DYpXTRQwaSqJeedYXmNhMD3RuK5HX6lJ_ejqZn1A&s'
+        img: 'https://agristar.com.br/upload/blog/original/dicas-de-sucos-naturais-para-refrescar-os-dias-mais-quentes-do-ano--17-12-2024-10-30-00-9726.jpg'
     },
 
     {
