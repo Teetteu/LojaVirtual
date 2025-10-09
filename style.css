@@ -66,6 +66,40 @@ nav > a:hover{
     color: white;
 }
 
+#carrinho-container{
+    background-color: #332f2df6;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px;
+    width: 22%;
+    gap: 5px;
+    border-radius: 0px 0px 0px 10px;
+  
+    box-shadow: 1px 1px 5px rgb(151, 151, 151);
+    position: absolute;
+    right: 0;
+    top: 105%;
+    
+    
+}
+
+#carrinho-container > div{
+    margin: 0px;
+    padding: 15px;
+    font-size: 15px;
+    border-bottom: 1px solid #ffffff5c;
+
+}
+
+#carrinho-container div{
+    margin: 0px;
+    padding: 10px;
+
+}
+
+
 .carrossel{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -110,7 +144,6 @@ main{
 
 
 section{
-    pointer-events: none;
     display: grid;
     grid-template-columns: 1fr; 
     justify-items: center;
@@ -119,12 +152,12 @@ section{
     padding: 10px;
     margin: 15px;
     max-height: 200px;
-    max-width: 147px;
+    max-width: 165px;
 
     min-height: auto;
     min-width: auto;
     
-    border: 0.5px solid #d6773769;
+    border: 2px solid #903d0a53;
     border-radius: 5px;
     box-shadow: 0px 0px 0px black;
 
@@ -136,10 +169,10 @@ section:hover{
     background-color: rgba(233, 192, 130, 0.425);
     transition: 0.5s;
     align-items: center;
-    pointer-events: none;
+    opacity: 1;
 }
 
-section > button{
+section button{
     pointer-events: fill;
     display: none;
     opacity: 0;
@@ -157,7 +190,7 @@ section > button{
     justify-content: center;
 }
 
-section:hover > button{
+button:hover{
     background-color: #ac4705;
     transition: 0.8s;
     opacity: 1;
@@ -238,8 +271,8 @@ section > p{
     }
 
     section{
-        min-height: 250px;
-        min-width: 190px;
+        min-height: 140px;
+        min-width: 165px;
     }
 
     section p{
@@ -274,8 +307,8 @@ section > p{
     }
 
     section{
-        min-height: 200px;
-        min-width: 149px;
+        max-height: 289px;
+        max-width: 130px;
     }
 
     section p{
